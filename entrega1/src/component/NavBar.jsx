@@ -6,7 +6,7 @@ import CardWidget from './CardWidget'
 
 const NavBar = () => {
   return (
-    
+    <div className='nav_container'>     
       <nav>
         <span>logo</span>
         <ul>
@@ -17,6 +17,8 @@ const NavBar = () => {
         <span> <CardWidget/></span>
       </nav>
   
+      </div>
+
   )
 }
 

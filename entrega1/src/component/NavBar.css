@@ -3,15 +3,21 @@
     padding: 0%;
     }
 
+    .nav_container{
+        width: 100%;
+        background-color: black;
+        color: aliceblue;
+
+    }
     nav{
         display: flex;
         justify-content: center;
+        align-items: center;
         width: 80%;
         margin: auto;
     }
 
 nav ul{
-
     display: flex;
     margin: auto;
     width: 80%;
@@ -26,9 +32,10 @@ nav ul li {
 
 nav ul li a{
     text-decoration: none;
-    color: black;
+    color:aliceblue;
+    
 }
 
 nav ul li a:hover{
-   color: brown;
+   color:rgb(87, 87, 87);
 }
