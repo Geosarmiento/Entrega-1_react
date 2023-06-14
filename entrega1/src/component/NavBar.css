@@ -24,18 +24,18 @@ nav ul{
     justify-content: center;
 }
 
-nav ul li {
+.li {
    padding: 10px 50px;
     text-decoration: none;
     list-style: none;
 }
 
-nav ul li a{
+a{
     text-decoration: none;
     color:aliceblue;
     
 }
 
-nav ul li a:hover{
+a:hover{
    color:rgb(87, 87, 87);
 }
