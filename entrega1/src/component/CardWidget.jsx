@@ -1,18 +1,20 @@
 import React from 'react'
 import LocalGroceryStoreIcon from '@mui/icons-material/LocalGroceryStore';
-
+import { Link } from 'react-router-dom';
 
 const CardWidget = () => {
   return (
   <>
-    <div style={{display:"flex"}}>
-      <LocalGroceryStoreIcon/>
-    <p>5</p>
+    <Link to="/carrito"><button id="boton-carrito" >
+
+          <LocalGroceryStoreIcon/>
+          <span className='contador-carrito'>0</span>
     
-    </div>
+    </button>
+    </Link>
     </>
   )
 }
-2
+
 
 export default CardWidget

@@ -9,11 +9,12 @@ const NavBar = () => {
   return (
     <div className='nav_container'>     
       <nav>
-        <span>logo</span>
+      <Link to="/"> <span>logo</span> </Link>
           <ul>
              
             <Link className="li" to="/">Home</Link>
             <Link className="li" to="/about">About</Link>
+            <Link className="li" to="/productos">Shop</Link>
             <Link className="li" to="/contact">Contact</Link>
 
           </ul>
