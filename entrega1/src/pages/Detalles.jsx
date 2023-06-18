@@ -1,6 +1,9 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
+import axios from 'axios';
+
+import Card from "../component/Card";
 
 
 
@@ -12,19 +15,17 @@ const Detalles = () => {
 
   let {id} = useParams();
 
-  console.log(detalle)
 
   useEffect(() => {
-    axios("data.json$(id)").then((res) => setDetalle(res.data));
+    axios(`data.json${id}`).then((res) => setDetalle(res.data));
   }, [id]);
 
   return (
-    <div >
-      <h1>Page detalle</h1>
-          
-        </div>
+      <div >
+        {detalle.id ?  <Card detalle={detalle}/>  : null }
+      </div>
     );
   
 };
 
-export default Detalles
+export default Detalles;
