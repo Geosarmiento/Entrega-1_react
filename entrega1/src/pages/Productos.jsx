@@ -2,6 +2,8 @@ import React from "react";
 import Card from "../component/Card";
 import { Link } from "react-router-dom";
 
+import "./productos.css"
+
 
 
 
@@ -17,9 +19,9 @@ const Productos = () => {
 
       <div className="card-container">
 
-        <Link to={"/detalleProducto"}>
+     
           <Card />
-        </Link>
+       
 
       </div>
     </div>

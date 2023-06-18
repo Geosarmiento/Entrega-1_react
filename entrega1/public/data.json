@@ -74,6 +74,39 @@
     "precio": 32,
     "talle": "L",
     "img": "./img/pantalon.jpg"
+  },
+
+  {
+    "id": 8,
+    "nombre": "Tshirt",
+    "tipo": "Camiseta",
+    "cantidad": 1,
+    "desc": "Camiseta Color Roja",
+    "precio": 32,
+    "talle": "L",
+    "img": "./img/pantalon.jpg"
+  },
+
+  {
+    "id": 9,
+     "nombre": "Tshirt",
+     "tipo": "Camiseta",
+     "cantidad": 1,
+     "desc": "Camiseta Color Negro",
+     "precio": 35,
+     "talla": "L",
+     "img": "./img/remera.jpg"
+  },
+
+  {
+    "id": 10,
+   "nombre": "Tshirt",
+    "tipo": "Camiseta",
+    "cantidad": 1,
+    "desc": "Camiseta Color Azul",
+    "precio": 28,
+    "talle": "L",
+    "img": "./img/camisa.jpg"
   }
 
  

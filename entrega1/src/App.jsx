@@ -21,12 +21,12 @@ function App() {
 
             <Routes>
               <Route path="/" element={<HomePage/>}/>
-              <Route path="/About" element={<About/>}/>
-              <Route path="/Productos" element={<Productos/>}/>
-              <Route path="/Contact" element={<Contact/>}/>
-              <Route path="/Carrito" element={<Carrito/>}/>
+              <Route path="/about" element={<About/>}/>
+              <Route path="/productos" element={<Productos/>}/>
+              <Route path="/contact" element={<Contact/>}/>
+              <Route path="/carrito" element={<Carrito/>}/>
               <Route path="*" element={<Error404/>}/>
-              <Route path="/Detalles/:id" element={<Detalles/>}/>
+              <Route path="/detalles/:id" element={<Detalles/>}/>
             </Routes>
 
       

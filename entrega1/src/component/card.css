@@ -1,15 +1,5 @@
 
-.card-container{
-  
-    width: 100%;
-    height: auto;
-    margin: 30px 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-   
-    justify-content: center;
-}
+
 .card{
 
     max-width: 250px;
@@ -22,6 +12,8 @@
     -moz-box-shadow: -3px 4px 19px -9px rgba(0,0,0,0.39);
     box-shadow: -3px 4px 19px -9px rgba(0,0,0,0.39);
     overflow: hidden;
+
+    justify-content: center;
 }
 .card img{
     width: 100%;
