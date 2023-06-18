@@ -12,8 +12,9 @@
 }
 
 .carrito{
-    width: 450px;
-    height: 300px;
+    margin-top: 40px;
+    width: 80%;
+    height: 60vh;
     background-color: aliceblue;
     border-radius: 12px;
 
