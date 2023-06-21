@@ -6,10 +6,6 @@ import axios from 'axios';
 import Card from "../component/Card";
 
 
-
-
-
-
 const Detalles = () => {
   const [detalle, setDetalle] = useState({});
 
