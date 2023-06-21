@@ -22,10 +22,11 @@ const Carrito = () => {
       <div className='carrito'>
             <p>Productos añaditos a tu carrito</p>
             <div>
+
             <CartElements/>
 
-
             <CartTotal/>
+
             </div>
 
       </div>

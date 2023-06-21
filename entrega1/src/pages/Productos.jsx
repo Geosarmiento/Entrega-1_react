@@ -5,13 +5,8 @@ import Card from "../component/Card";
 import "./productos.css"
 
 
-
-
 const Productos = () => {
 
-
-
-        
 
   return (
     <div>
